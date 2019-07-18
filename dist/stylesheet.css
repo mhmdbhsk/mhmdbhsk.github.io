@@ -1,0 +1,184 @@
+html,
+head,
+body,
+footer {
+    margin: 0;
+    padding: 0;
+    font-family: Fira Mono;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 !important;
+}
+
+.header {
+    padding: 75px 0 0;
+    height: 100vh;
+}
+
+.header-box {
+    background: #000000 !important;
+    opacity: .5;
+}
+
+.bg {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background: url("/asset/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.about {
+    margin: 0;
+    padding: 45px 0 55px 0;
+    background: #263238;
+}
+
+.achivement {
+    margin: 0;
+    padding: 45px 0 55px 0;
+    background: #212121;
+}
+
+.certificate {
+    margin: 0;
+    padding: 45px 0 55px 0;
+    background: #455A64;
+}
+
+.footer {
+    margin: 0;
+    padding: 45px 0 45px 0;
+    background: #212121;
+}
+
+.h1-header {
+    color: #ffffff;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.h1-white {
+    color: #ffffff;
+}
+
+.h2-white {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.h3-white {
+    color: #ffffff;
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+.p-white {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.li-white {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.small-grey {
+    color: #CFD8DC;
+    font-size: 0.9em;
+}
+
+.none {
+    text-decoration: none;
+    line-height: 2.5rem;
+}
+
+.container {
+    margin: 0 350px 0 350px;
+}
+
+.relative {
+    position: relative
+}
+
+.img-header {
+    -webkit-box-shadow: 5px 5px 300px 24px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 300px 24px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 300px 24px rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 0;
+}
+
+.box-header {
+    width: 160px;
+    padding: 0;
+}
+
+.link-header {
+    border-radius: 5px;
+    height: 30px;
+    width: 160px;
+    margin: 70px 0 0;
+    align-content: center;
+}
+
+.icon-link {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        position: absolute;
+        margin: auto;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .container-mobile {
+        position: absolute;
+        margin: 50px;
+        vertical-align: middle;
+        width: 300px;
+    }
+
+    .about {
+        margin: 0;
+        padding: 0;
+        height: 420px;
+    }
+
+    .achivement {
+        margin: 0;
+        padding: 45px 0 115px 0;
+        height: 600px;
+    }
+
+    .certificate {
+        margin: 0;
+        padding: 45px 0 55px 0;
+        background: #455A64;
+        height: 400px;
+    }
+
+    .box-header {
+        margin: 100px auto 50px auto;
+        width: 160px;
+        padding: 0;
+    }
+
+    .link-header {
+        height: 30px;
+        width: 150px;
+        margin: auto;
+        padding: 5px;
+    }
+}
