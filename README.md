@@ -1,2 +1,2 @@
 # My Personal Resume Page
-## Check it at https://mhmdbhsk.me
+## Check it at http://mhmdbhsk.me
