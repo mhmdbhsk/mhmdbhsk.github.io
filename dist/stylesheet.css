@@ -159,18 +159,18 @@ body {
     .achivement {
         margin: 0;
         padding: 45px 0 115px 0;
-        height: 600px;
+        height: 550px;
     }
 
     .certificate {
         margin: 0;
         padding: 45px 0 55px 0;
         background: #455A64;
-        height: 400px;
+        height: 600px;
     }
 
     .box-header {
-        margin: 100px auto 50px auto;
+        margin: 0 auto 50px auto;
         width: 160px;
         padding: 0;
     }
@@ -180,5 +180,10 @@ body {
         width: 150px;
         margin: auto;
         padding: 5px;
+    }
+
+    .header {
+        padding: 75px 0 0;
+        height: 200vh;
     }
 }
